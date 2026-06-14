@@ -13,9 +13,10 @@
 <body>
   <div class="form-box">
     <h1>Contact Me</h1>
-    <form action="https://formspree.io/f/meewpbvn" method="POST">
-      
-      <div id="step1">
+    <form name=" contact"method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  
+        <input type="hidden" name="form-name" value="contact"/>
+        <div id="step1">
         <p>Step 1: Your Email</p>
         <input type="email" name="email" placeholder="Enter your email" required>
         <br><br>
